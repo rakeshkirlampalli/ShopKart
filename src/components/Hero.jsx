@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <Header />
       <section
-        className="text-gray-600 h-[542px] body-font relative  bg-[#1A1A1A] overflow-hidden"
+        className="text-gray-600 h-[542px] body-font relative  bg-[#1A1A1A]"
         style={{ backgroundImage: `url(${Rectangle})` }}
       >
         <div className="container flex flex-col items-center px-5 mx-auto ">
@@ -22,7 +22,7 @@ const Hero = () => {
               className="absolute md:-top-3 md:right-32 -right-24 z-10 md:w-[330px]  h-[330px]"
             />
 
-            <div className="md:w-[940px] w-[550px] md:h-[310px] h-[280px] z-40 absolute  bg-[#F07E15] bg-opacity-70 md:top-[170px] top-[185px] md:left-[410px]"></div>
+            <div className="md:w-[940px] w-[550px] md:h-[310px] h-[280px] z-40 absolute  bg-[#F07E15] bg-opacity-70 md:top-[170px] top-[185px] md:left-[363px]"></div>
             <div className="z-50">
               <h1 className="title-font absolute md:top-[112px] top-[250px] md:left-[120px] left-[65px]  md:text-8xl text-5xl font-Syne  font-extrabold text-white">
                 Fresh

@@ -20,7 +20,7 @@ const Product = () => {
               alt=""
               className="absolute md:top-[149px] top-[77px] md:left-[33px] left-[16px] "
             />
-            <hr className="w-[550px] mt-4 border-t border-[#161615]" />
+            <hr className="md:w-[550px] w-[400px] mt-4 border-t border-[#161615]" />
           </header>
 
           <div className="mt-4 ml-1 lg:mt-8 lg:grid lg:grid-cols-4 lg:items-start lg:gap-8">
