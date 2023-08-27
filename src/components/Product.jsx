@@ -18,7 +18,7 @@ const Product = () => {
             <img
               src={star}
               alt=""
-              className="absolute md:top-[150px] top-[79px] md:left-[52px] left-[16px] "
+              className="absolute md:top-[149px] top-[78px] md:left-[54px] left-[16px] "
             />
             <hr className="md:w-[590px] w-[380px] mt-4 border-t border-[#161615]" />
           </header>
