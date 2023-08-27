@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 const Nav = () => {
   return (
-    <header className="text-[#626262] body-font bg-[#1A1A1A]">
+    <header className="text-[#626262] w-auto body-font bg-[#1A1A1A]">
       <div className="md:w-[1150px]  md:max-h-[40px] max-h-[25px] p-1 py-5 mx-auto flex items-center justify-between bg-[#1A1A1A]">
         <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
           <TbTruckDelivery className="md:w-6 md:h-6 h-5 w-5 ml-1 text-[#626262]" />

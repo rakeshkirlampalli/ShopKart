@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
   return (
-    <ul className="flex flex-col bg-black text-white md:hidden absolute z-auto top-[50px] left-0 w-full h-[calc(100vh-50px)]   font-bold">
+    <ul className="flex flex-col bg-black text-white md:hidden w-auto absolute z-auto top-[50px] left-0 w-full h-[calc(100vh-50px)]   font-bold">
       {data.map((item) => {
         return (
           <React.Fragment key={item.id}>

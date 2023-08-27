@@ -8,7 +8,7 @@ import Arrow1 from "../assets/images/Arrow 1.png";
 import Arrow2 from "../assets/images/Arrow 2.png";
 const Product = () => {
   return (
-    <div className="h-[680px] relative">
+    <div className="h-[680px] w-auto relative">
       <section>
         <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
           <header className="ml-2">

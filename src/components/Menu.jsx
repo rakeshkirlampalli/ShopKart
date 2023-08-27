@@ -4,7 +4,7 @@ import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
 const Menu = ({ showCatMenu, setShowCatMenu }) => {
   return (
-    <div className="container mx-auto  max-w-[1150px] hidden md:flex flex-wrap flex-col md:flex-row items-center font-poppins uppercase">
+    <div className="container mx-auto w-auto  max-w-[1150px] hidden md:flex flex-wrap flex-col md:flex-row items-center font-poppins uppercase">
       <ul className="flex items-center gap-16 pl-10 mt-3 ml-8 font-bold text-white font-work-sans">
         {data.map((item) => {
           return (

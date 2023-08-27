@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header
-      className="text-gray-600 body-font h-auto bg-[#1A1A1A] relative z-[1000]"
+      className="text-gray-600 body-font w-auto h-auto bg-[#1A1A1A] relative z-[1000]"
       style={{ backgroundImage: `url(${Rectangle})` }}
     >
       <div className="max-w-[1150px] mx-auto flex flex-wrap flex-col md:flex-row md:items-center font-poppins">

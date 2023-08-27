@@ -51,7 +51,7 @@ const Footer1 = () => {
     <div>
       <section
         style={{ backgroundImage: `url(${footer})` }}
-        className="text-white relative h-[520px]"
+        className="text-white relative h-[520px] w-auto"
       >
         <div className="container relative px-6 py-4 mx-auto lg:py-5">
           <div className="mt-5 lg:flex">
