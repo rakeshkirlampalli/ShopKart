@@ -18,9 +18,9 @@ const Product = () => {
             <img
               src={star}
               alt=""
-              className="absolute md:top-[149px] top-[77px] md:left-[33px] left-[16px] "
+              className="absolute md:top-[150px] top-[79px] md:left-[52px] left-[16px] "
             />
-            <hr className="md:w-[550px] w-[380px] mt-4 border-t border-[#161615]" />
+            <hr className="md:w-[590px] w-[380px] mt-4 border-t border-[#161615]" />
           </header>
 
           <div className="mt-4 ml-1 lg:mt-8 lg:grid lg:grid-cols-4 lg:items-start lg:gap-8">
@@ -50,7 +50,7 @@ const Product = () => {
                     />
                     <img
                       src={Group19}
-                      className="z-50 absolute md:top-[216px] top-[280px] md:right-[0px] right-[87px] "
+                      className="z-50 absolute md:top-[216px] top-[278px] md:right-[0px] right-[20px] "
                       alt="Group19"
                     />
                     <div className="relative pt-3 bg-white ml-5">
