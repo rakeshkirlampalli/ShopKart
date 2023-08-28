@@ -59,7 +59,6 @@ const Footer1 = () => {
               <h1 className="mt-4 text-[#626262] mt-10 md:ml-10 ml-4 md:text-2xl font-work-sans">
                 Newslleter
               </h1>
-
               <h4 className=" text-md font-medium md:ml-10 ml-4 text-[#626262] capitalize lg:text-lg font-work-sans ">
                 Get news about articles and updates <br /> in your inbox.
               </h4>

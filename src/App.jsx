@@ -3,10 +3,12 @@ import Hero from "./components/Hero";
 import Product from "./components/Product";
 import Footer1 from "./components/Footer1";
 import Nav from "./components/Nav";
+import Loading from "./components/Loading";
 
 const App = () => {
   return (
     <>
+   
       <Nav />
       <Hero />
       <Product />
