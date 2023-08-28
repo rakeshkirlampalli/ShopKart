@@ -2,6 +2,7 @@ import React from "react";
 import { data, subMenuData } from "../utils/menu_data";
 import { BsChevronDown } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import NewCart from "./NewCart";
 const Menu = ({ showCatMenu, setShowCatMenu }) => {
   return (
     <div className="container mx-auto w-auto  max-w-[1150px] hidden md:flex flex-wrap flex-col md:flex-row items-center font-poppins uppercase">
@@ -23,7 +24,7 @@ const Menu = ({ showCatMenu, setShowCatMenu }) => {
                         return (
                           <Link
                             key={subItem.id}
-                            to={subItem.url}
+                            to={"/filter"}
                             onClick={() => setShowCatMenu(false)}
                           >
                             <li className="flex  items-center w-full justify-between h-12  px-3  hover:bg-black/[.03] rounded-md">

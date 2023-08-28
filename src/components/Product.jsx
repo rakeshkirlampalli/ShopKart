@@ -4,10 +4,10 @@ import star from "../assets/images/Star.svg";
 import Group19 from "../assets/images/Group 19.png";
 import Arrow1 from "../assets/images/Arrow 1.png";
 import Arrow2 from "../assets/images/Arrow 2.png";
-import {useDispatch,useSelector} from "react-redux"
-import { getProducts } from "../store/apiProductSlice";
 import Loading from "./Loading";
 import statusCode from "../utils/statusCode";
+import { useDispatch, useSelector } from "react-redux";
+import { getProducts } from "../store/apiProductSlice";
 const Product = () => {
 
   const scrollContainerRef = useRef(null);
@@ -59,11 +59,11 @@ return <Loading/>
           </header>
 
           <div className="mt-4 ml-1 lg:mt-8 lg:grid lg:grid-cols-4 lg:items-start lg:gap-8">
-            <div className="flex items-center gap-3 py-3 ml-1 md:flex-col md:space-y-4">
-              <h1 className="font-work-sans">Apparel</h1>
-              <h1 className="text-2xl font-Syne">Accessories</h1>
-              <h1 className="font-work-sans">Best sellers</h1>
-              <h1 className="font-work-sans">50% off</h1>
+            <div className="flex items-center gap-3  py-3 ml-1 md:flex-col md:space-y-4">
+              <h1 className=" hover:text-2xl cursor-pointer ">Apparel</h1>
+              <h1 className="font-Syne hover:text-2xl cursor-pointer">Accessories</h1>
+              <h1 className=" hover:text-2xl cursor-pointer">Best sellers</h1>
+              <h1 className=" hover:text-2xl cursor-pointer">50% off</h1>
             </div>
 
             <div className="lg:col-span-3 w-100p h-50p ">
@@ -81,12 +81,12 @@ return <Loading/>
       <li key={id} className="md:w-1/3 w-72 ">
         <a href="#" className="relative block overflow-hidden group">
           <img src={image} alt={title} className="md:h-[200px] h-[200px] w-[200px] object-contain ml-15  transition duration-500 group-hover:scale-105" />
-          <img src={Group19} className="z-50 absolute md:top-[216px] top-[170px] md:right-[0px] right-[20px]" alt="Group19" />
+          <img src={Group19} className="z-50 absolute md:top-[165px] top-[170px] md:right-[10px] right-[20px]" alt="Group19" />
           <div className="relative pt-3 bg-white ml-5">
             <h2 className="text-2xl font-Syne group-hover:underline group-hover:underline-offset-4">
               {title.slice(0,20)}...
             </h2>
-            <p className="mt-2 text-gray-500 font-work-sans ">
+            <p className="mt-2 text-gray-500 break-words whitespace-break-spaces  ">
               {description.slice(0,60)}...
             </p>
             <span className="flex text-xl tracking-wider">${price}</span>

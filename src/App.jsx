@@ -1,18 +1,18 @@
 import React from "react";
-import Hero from "./components/Hero";
-import Product from "./components/Product";
-import Footer1 from "./components/Footer1";
-import Nav from "./components/Nav";
-import Loading from "./components/Loading";
+import { Route, Routes } from "react-router-dom";
+import NewCart from "./components/NewCart";
+import Home from "./components/Home";
+
 
 const App = () => {
   return (
     <>
    
-      <Nav />
-      <Hero />
-      <Product />
-      <Footer1 />
+      <Routes>
+        <Route path="/ShopKart" element={<Home/>}/>
+        <Route path="/filter" element={<NewCart/>}/>
+      </Routes>
+    
     </>
   );
 };

@@ -24,7 +24,7 @@ const MenuMobile = ({ showCatMenu, setShowCatMenu, setMobileMenu }) => {
                       return (
                         <Link
                           key={subItem.id}
-                          href="/"
+                          to={"/filter"}
                           onClick={() => {
                             setShowCatMenu(false);
                             setMobileMenu(false);

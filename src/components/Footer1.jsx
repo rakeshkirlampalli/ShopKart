@@ -122,12 +122,11 @@ const Footer1 = () => {
 
           <div className="pt-10 mt-5 ml-8 font-extrabold sm:flex sm:items-center  font-Syne">
             <h1 className="text-5xl md:text-9xl flex-start">
-              GET <br /> 
-              IN  <br className="md:hidden"/>
+              GET <br />
+              IN <br className="md:hidden" />
               TOUCH
             </h1>
           </div>
-          
         </div>
       </section>
       <div className="w-auto h-[50px] bg-[#1A1A1A] text-white text-center pt-3 font-Poppins ">
