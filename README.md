@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 <!-- use npm run dev to run the app -->
 <!--Local:   http://localhost:5173/ use this host to run -->
+<!-- I used separate component for category Please Filtered go through this component  --!>
